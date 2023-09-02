@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 100%;
+    height: 270px;
+    background: url(../images/скала2.jpg) no-repeat center ;
+}
+.box_animate_2{
+    animation: 8s popit forwards;
+}
+
+@keyframes popit{
+    0%{
+       background: url(../images/скала2.jpg) no-repeat center; 
+    }
+    100%{
+        background: url(../images/скала.jpg) no-repeat center ;
+    }
+}
+.box_animate_2 {
+    animation: 8s popit forwards;
+  }
+  
+  @keyframes popit {
+    0% {
+        margin-top: 0px;
+        transform: rotate(0deg);
+        background: url(../images/скала2.jpg) no-repeat center;
+    }
+    10%{
+        margin-top: 0px;
+        transform: rotate(0deg);
+        background: url(../images/скала2.jpg) no-repeat center;
+    }
+    20%{
+        margin-top: 0px;
+        transform: rotate(0deg);
+        background: url(../images/скала2.jpg) no-repeat center;
+    }
+    30%{
+        margin-top: 0px;
+        transform: rotate(0deg);
+        height: 250px;
+        background: url(../images/скала.jpg) no-repeat center; 
+    }
+    40%{
+        margin-top: 0px;
+        transform: rotate(0deg);
+        height: 300px;
+        background: url(../images/скала.jpg) no-repeat center /cover;  
+    }
+    75%{
+        margin-top: 0px;
+        transform: rotate(0deg);
+        height: 350px;
+        background: url(../images/скала.jpg) no-repeat center /cover;  
+    }
+    80%{
+        margin-top: 0px;
+        transform: rotate(0deg);
+        height: 400px;
+        background: url(../images/скала.jpg) no-repeat center /cover;
+    }
+    85%{
+        margin-top: 0px;
+        transform: rotate(0deg);
+        height: 450px;
+        background: url(../images/скала.jpg) no-repeat center /cover;
+    }
+    90%{
+        margin-top: 0px;
+        transform: rotate(0deg);
+        height: 500px;
+        background: url(../images/скала.jpg) no-repeat center /cover;
+    }
+    95%{
+        margin-top: 0px;
+        transform: rotate(0deg);
+        height: 550px;
+        background: url(../images/скала.jpg) no-repeat center /cover;
+    }
+    100% {
+        margin-top: -600px;
+        transform: rotate(360deg);
+        height: 100%;
+        background: url(../images/скала.jpg) no-repeat center;
+    }
+  }
